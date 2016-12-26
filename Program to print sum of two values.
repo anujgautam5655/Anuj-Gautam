@@ -1,0 +1,15 @@
+//Program to print sum of two values.
+#include<iostream.h>
+#include<conio.h>
+int main()
+{clrscr();
+int value1, value2, value, sum;
+cout<<"Enter First Value : ";
+cin>>value1;
+cout<<"Enter Second Value : ";
+cin>>value2;
+sum=value1+value2;
+cout<<"The sum of given values is :";
+cout<<sum;
+return 0;
+}
